@@ -1,0 +1,191 @@
+{
+  "No_Text_Found": {
+  "query": "ocr_notextfound"
+  },
+  "topic_not_recognized": {
+  "query": "ocr_topicnotrecognize"
+  },
+  "Not_Allowed_File_Ext": {
+  "query": "ocr_notallowedfile"
+  },
+  "There was an error while configuring single sign-on! Please ask your support staff for assistance": {
+    "query": "SSO information for Mac"
+  },
+  "Com.apple.Webkit.Networking wants to sign key “Configuration Profiles” in your keychain. Do you want to allow this item? Always allow Deny Allow": {
+    "query": "SSO information for Mac"
+  },
+  "macOS wants to make changes. Enter an administrator’s name and password to allow this. macOS wants to use the “system” keychain. Username: Password: Deny Allow": {
+    "query": "SSO information for Mac"
+  },
+  "CompoundFileAnalyzer has stopped working": {
+    "query": "Backup Issue backcompound"
+  },
+  "Connected Backup/PC You must enter your backup account password to retrieve files": {
+    "query": "Backup Issue backPPrompt"
+  },
+  "SAP Secure Login Client Dies ist lhr SSH-Ahent. Um einen öffenlichen SSH-Schlüssel aus dem Zertifikat zu erhalte, drücken Sie STRG-ALT-C": {
+    "query": "sso problem ssh"
+  },
+  "Sizing conflicts exist on the screen; for more information see SAP note 570861": {
+    "query": "sap gui sizing conflict"
+  },
+    "Task Sequence: Get Windows 10 1607 (Redstone 1) has failed with the error code (0x80070002).’  ‘Error: 0x4005(16389)": {
+    "query": "Windows Upgrade error"
+  },
+    "Something went Wrong. We couldn’t start your program. Please try starting it again. If it won’t start, try repairing office from ‘Programs and Features’ in the control Panel.": {
+    "query": "Office - Something Went Wrong"
+  },
+    "The installation of SAP products failed with 1392 error(s). Error Report.’ '0x91(145)'": {
+    "query": "sap gui install fails"
+  },
+    "ITunes The feature you are trying to use is on a network resource that is unavailable. Click ok to try again, or enter an alternative path to a folder containing the insallation package": {
+    "query": "ios itunes issues"
+  },
+    "The server sapserv2a.wdf.sap.corp is asking for your username and password. The server reports that it is from SAPWebProxy. Warning: Your user name and password will be sent using basic authentication on a connection that isn't secure.’Authentication Required": {
+    "query": "Troubleshooting WTS/VDI Issues Credential pop in a website"
+  },
+    "WSAEWOULDBLOCK:Resource temporarily unavailable": {
+    "query": "sap gui Wsaewouldblock error"
+  },
+    "OneDrive An item couldn’t be uploaded": {
+    "query": "onedrive Sync win"
+  },
+    "SAP Netweaver Benutzer* Kenwort* Anmelden Probleme bei der Anmeldung? support’‘SAP Netweaver User* Password* Logon Logon Problems? Get Support’": {
+    "query": "sso issue Portal page shows Netweaver Logon screen"
+  },
+    "Where are all the apps? Fix it": {
+    "query": "av compliance Mac"
+  },
+    "McAfee status: issue detected Mcafee detected issues that require attention": {
+    "query": "av Issue Detected in McAfee Windows os"
+  },
+    "Cannot start Microsoft Outlook. Cannot open the Outlook window. The set of folders cannot be opened. The file": {
+    "query": "starting outlook ost"
+  },
+    "Microsoft Outlook connecting to Mailboxname @sap.com Domain Global Remember my credentials": {
+    "query": "starting outlook credentials"
+  },
+    "Cannot Start Microsoft Outlook. Cannot open the Outlook window. The set of folders cannot be opened. The information store could not be opened": {
+    "query": "starting outlook store"
+  },
+    "Cannot Start Microsoft Outlook. Cannot open the Outlook window. The set of folders cannot be opened. Microsoft Exchange is currently busy. If this message is still displayed in 30 minutes, contact your Exchange administrator": {
+    "query": "Troubleshooting WTS/VDI Can't start Outlook"
+  },
+    "No Information. No free/busy information could be retrieved. Your server location could not be determined. Contact your administrator.": {
+    "query": "calendar issues No free-busy information in Scheduling Assistant visible"
+  },
+    "Skype for Business We can’t sign you in. Please check your account details, advanced options and try again.": {
+    "query": "skype Mobile login not working"
+  },
+    "You don’t have anything scheduled. Enjoy": {
+    "query": "skype Can't see scheduled meetings"
+  },
+    "Create skype Meeting failed. Please make sure that Skype for Business is running and signed-in and try again": {
+    "query": "calendar issues Cant create Skype meeting in outlook"
+  },
+    "Error! You’ve typed in a wrong username or password! Please try again.": {
+    "query": "Troubleshooting WTS/VDI Issues Wrong username or password"
+  },
+    "SAP-Internet Secured Can’t connect to this network": {
+    "query": "network issues wireless"
+  },
+    "Network Error Windows cannot access Ckeck the spelling of the name. Otherwise, there  might be a problem with your network. To try to identify and resolve network problems, click Diagnose": {
+    "query": "Group Share End User Network Error - Cannot Access Folder "
+  },
+    "Disconnected Network Access Connection Device was not found.": {
+    "query": "vpn device not found"
+  },
+    "Secure Logon for SAP Network Access The username or password is not correct. Please try again. (error: Access-Reject)": {
+    "query": "vpn invalid credentials"
+  },
+    "Desktop Viewer The connection to “SAP Desktop” failed with status (Unknown client error 1110)": {
+    "query": "Troubleshooting WTS/VDI Issues unknown client error 1110"
+  },
+    "Add Account Enter your work email or server address provided by your IT depertment:’ ‘Your account cannot be added using this email address. Make sure you entered it correctly. You may need to enter a server address instead": {
+    "query": "Troubleshooting WTS/VDI Issues Cannot add account in Citrix Receiver"
+  },
+    "You have been logged on with a temporary profile. You cannot access your files and files created in this profile will be deleted when you log off.": {
+    "query": "Troubleshooting WTS/VDI Issues Have a temporary profile"
+  },
+    "Logon balancing error 88: could not connect to message server (rc=9)": {
+    "query": "sap logon error 88"
+  },
+    "Keychain Access wants to use your confidential information stored in “Skype for Business” in your keychain": {
+    "query": "macOS Using Mac Keychain"
+  },
+    "Google Chrome wants to sign using key “Configuration Profiles” in your keychain.’": {
+    "query": "macOS Using Mac Keychain"
+  },
+    "Enterprise Connect wants to use your confidential information stored n “Enterprise connect” in your keychain": {
+    "query": "macOS Using Mac Keychain"
+  },
+    "System Preferences is trying to unlock the Energy saver preferences. Enter an administrator’s name and password to allow this": {
+    "query": "Mac privileges Mac Software "
+  },
+    "The password for the account was not change. The server is not available. Change your password when the server becomes available": {
+    "query": "Password Issues on Mac loginError"
+  },
+    "ISP: Connection failed Error: SncPDLInit() = = SNCERR_INIT": {
+    "query": "sap gui setmac"
+  },
+    "Application <SAPGUI 7.40rev10.0> could not be launched. Failed to find  JRE/JDK version 1.8* (64bit). Download at http://java.com/jdk": {
+    "query": "sap gui setmac"
+  },
+    "BIG-IP Edge Client Connecting: your attention is required. Seamless f5 VPN access requires Privileges.app to be installed on your Mac. You can install Privileges from Self Service. Click below to continue login with your RSA token. Please click the link below to continue.’": {
+    "query": "vpn on mac"
+  },
+    "Com.apple.Webkit.Networking wants to sign using key “Configuration Profiles” in your keychain. Do you want to allow access to this item?’": {
+    "query": "Safari on Mac"
+  },
+    "Adobe Flash Player” is out-of-date the version of th is plug-in on your computer does not include the latest security updates and is blocked. To continue using “Adobe flash Player”, download an update from Adobe": {
+    "query": "Safari on Mac"
+  },
+    "ERROR: undefinedresult OFFENDING COMMAND: xshow": {
+    "query": "Setup a printer on mac"
+  },
+    "@sap.com Outlook (Unlicensed Product)’ ‘ Activation required Microsoft Office 365 ProPlus": {
+    "query": "office activation"
+  },
+    "UPLOAD BLOCKED You are required to sign in to upload your changes to this location Sign In": {
+    "query": "office offAccError"
+  },
+    "Account Error There are problems with your account. To fix them, please sign in again": {
+    "query": "office offAccError"
+  },
+    "sorry, you don’t have access to this page": {
+    "query": "Troubleshooting OneDrive Storage Access error on Windows"
+  },
+    "Error Config.xml failed to load error": {
+    "query": "Configxml failed to load error"
+  },
+    "There is a problem showing the current status": {
+    "query": "software center status error"
+  },
+    "There was a problem signing you in. Error Code: 0x8004de85": {
+    "query": "Troubleshooting OneDrive Signing in error 0x8004de85 on Windows"
+  },
+    "Microsoft OneDrive has stopped working": {
+    "query": "Troubleshooting OneDrive clintstopd"
+  },
+    "Error code: '0xEA6C(60012)": {
+    "query": "Software Center Office365fails"
+  },
+    "Stop Code: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED": {
+    "query": "win os BSOD: Windows Crashed"
+  },
+    "SAP Network Compliance Center NETWORK QUARANTINE APPLIED You have currently failed the complicate check your Anti-Virus Software is not Installed.’ ‘Host is not Compliant’ ‘AV Not Installed’ ": {
+    "query": "network macintosh wired connection"
+  },
+    "Do you want to open or save R2xvYmFsZ1Bvb2plY3RfUjluWE1MlFRyYWluaW5nlENvdXJzZSBEZXZlbG9wbWVudA--.ica (1,31 KB) from citrix-access.global.corp.sap?": {
+    "query": "Troubleshooting WTS/VDI Issues wtsIcaPrompt"
+  },
+    "Exchange needs your credentials. Until then, you might see outdated info in Skype for Business. Enter Credentials": {
+    "query": "starting outlook credentials"
+  },
+    "Your PC ran into a problem and needs to restart. We're just collecting some error info, and then you can restart.": {
+    "query": "bluescreen"
+  },
+    "‘Microsoft Error Reporting There was a problem and Office365ServiceV2 was closed. We apologize for the inconvenience. If you were in the middle of something, your recent work might be lost. Restart Office365ServiceV2’": {
+    "query": "microsoft office officeMac"
+  }
+}
