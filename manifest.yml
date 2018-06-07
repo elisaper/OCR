@@ -1,6 +1,0 @@
-applications:
-- name: myapp
-  host: ocr-docker
-  path: .
-  memory: 256M
-  command: python test_ocr.py
