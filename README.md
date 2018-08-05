@@ -1,3 +1,8 @@
+#upload to CF
+docker build -t dzonesap/ocr .
+docker push dzonesap/ocr:latest
+cf push ocr --docker-image  dzonesap/ocr
+
 # Error_Recognition
 Error recognition via OSR
 

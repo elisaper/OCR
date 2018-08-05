@@ -23,7 +23,7 @@ app.config['UPLOAD_FOLDER'] = os.path.join(root, "uploads")
 
 @app.route("/")
 def version():
-    return "version 0.3.8"
+    return "version 0.3.9"
 
 @app.route("/api1/ocr/<path:filename>", methods=["GET"])
 def runapp(filename):
