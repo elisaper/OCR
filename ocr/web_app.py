@@ -21,23 +21,55 @@ app = Flask(__name__)
 CORS(app)
 app.config['UPLOAD_FOLDER'] = os.path.join(root, "uploads")
 
+def isValid(request):
+    hostArr = ['wb02ccf20.dispatcher.int.sap.hana.ondemand.com',  # sandbox
+               'wfd7746b4.dispatcher.int.sap.hana.ondemand.com',  # development
+               'fiorilaunchpad-sapitcloudt.dispatcher.hana.ondemand.com',  # test
+               'itsupport.sap.com'  # production
+               ]
+
+    isValid = False
+    i = 0
+    while i < len(hostArr):
+        print(hostArr[i])
+        if hostArr[i] in request:
+            isValid = True
+        i += 1
+
+    return isValid
+
 @app.route("/")
 def version():
+    valid = isValid(request.referrer)
+    if(valid == False):
+        return 'not valid'
     return "version 0.3.9"
 
 @app.route("/api1/ocr/<path:filename>", methods=["GET"])
 def runapp(filename):
+    valid = isValid(request.referrer)
+    if(valid == False):
+        return 'not valid'
     path = os.path.join("/", "opt", "screenshots", filename)
     exitcode, result = ocr.process_file(path)
     return jsonify(result)
 
 def allowed_file(filename):
+    valid = isValid(request.referrer)
+    if(valid == False):
+        return 'not valid'
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 #main route for post requests - validate the file type, save it, send to OCR function and ruturn the results
 @app.route('/api1/ocr', methods=['POST'])
 def upload_file():
+
+    valid = isValid(request.referrer)
+    if(valid == False):
+        return 'not valid'
+
+
     if 'file' not in request.files:
         return jsonify(ocr.file_not_found)
     file = request.files['file']
