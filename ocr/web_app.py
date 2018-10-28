@@ -32,22 +32,28 @@ def isValid(request):
     i = 0
     while i < len(hostArr):
         print(hostArr[i])
-        if hostArr[i] in request:
+        if hostArr[i] in request.referrer:
             isValid = True
         i += 1
+
+
+
+
+
 
     return isValid
 
 @app.route("/")
 def version():
-    valid = isValid(request.referrer)
+
+    valid = isValid(request)
     if(valid == False):
         return 'not valid'
     return "version 0.3.9"
 
 @app.route("/api1/ocr/<path:filename>", methods=["GET"])
 def runapp(filename):
-    valid = isValid(request.referrer)
+    valid = isValid(request)
     if(valid == False):
         return 'not valid'
     path = os.path.join("/", "opt", "screenshots", filename)
@@ -55,7 +61,7 @@ def runapp(filename):
     return jsonify(result)
 
 def allowed_file(filename):
-    valid = isValid(request.referrer)
+    valid = isValid(request)
     if(valid == False):
         return 'not valid'
     return '.' in filename and \
@@ -65,7 +71,20 @@ def allowed_file(filename):
 @app.route('/api1/ocr', methods=['POST'])
 def upload_file():
 
-    valid = isValid(request.referrer)
+    username = request.authorization.username
+    password = request.authorization.password
+
+    # cf environment
+    if os.getenv('VCAP_APPLICATION'):
+        authPass = os.getenv('userToken')
+    else:
+        authPass = 'no value'
+
+    if(authPass != password  or username != 'ayteeOCRAgent'):
+        return 'not valid authentication'
+    
+
+    valid = isValid(request)
     if(valid == False):
         return 'not valid'
 

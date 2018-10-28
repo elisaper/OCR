@@ -11,6 +11,7 @@ RUN apt-get update &&\
 RUN  pip3 install Flask &&\
      pip3 install flask-cors &&\
      pip3 install pillow &&\
+     pip3 install cfenv &&\
      pip3 install fuzzywuzzy
 #    apt-get install -y curl &&\
 #    apt-get install -y iputils-ping &&\
