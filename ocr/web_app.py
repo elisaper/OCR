@@ -71,8 +71,8 @@ def allowed_file(filename):
 @app.route('/api1/ocr', methods=['POST'])
 def upload_file():
 
-    username = request.authorization.username
-    password = request.authorization.password
+    username = request.authorization.username.strip()
+    password = request.authorization.password.strip()
 
     # cf environment
     if os.getenv('VCAP_APPLICATION'):

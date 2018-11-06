@@ -107,7 +107,7 @@ def process_file(filename):
         # Perform fuzzynes comparision between OCR text and casesDB
         fuzzyness = fuzz.partial_ratio(str(key).lower(), str(out).lower())
         logging.info(json.dumps([str(key).lower(), fuzzyness]))
-        if fuzzyness > 50:
+        if fuzzyness > 70:
             if fuzzyness > best_fuz:
                 best_key = key
                 best_fuz = fuzzyness
